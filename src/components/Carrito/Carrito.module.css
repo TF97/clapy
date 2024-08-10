@@ -1,0 +1,238 @@
+.root {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  outline: solid 5px #264653;
+  outline-offset: -5px;
+  border-radius: 20px;
+  background-color: #62b6cb;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.header {
+  position: absolute;
+  left: 19px;
+  top: 13px;
+  width: 329px;
+  height: 77px;
+  border-radius: 20px;
+  background-color: #bee9e8;
+}
+.carrito {
+  color: #264653;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 45px;
+  top: 23px;
+  width: 267px;
+  height: 56px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fondoMenuHamburguesa {
+  position: absolute;
+  left: 16px;
+  top: 99px;
+  width: 55px;
+  height: 53px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  position: absolute;
+  left: 36px;
+  top: 550px;
+  width: 294px;
+  height: 81px;
+  border-radius: 20px;
+  background-color: #cae9ff80;
+}
+.contactanos {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 82px;
+  top: 549px;
+  width: 202px;
+  height: 42px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.google_mail_gmail_logo_icon_15 {
+  position: absolute;
+  left: 198px;
+  top: 588px;
+  width: 32px;
+  height: 32px;
+  background-image:/* webpackIgnore: true */ url('assets/google_mail_gmail_logo_icon_15.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook_iconIconsCom_536121 {
+  position: absolute;
+  left: 64px;
+  top: 585px;
+  width: 36px;
+  height: 35px;
+  border-radius: 20px;
+  background-image:/* webpackIgnore: true */ url('assets/facebook_iconIconsCom_536121.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram_iconIconsCom_668041 {
+  position: absolute;
+  left: 131px;
+  top: 586px;
+  width: 32px;
+  height: 32px;
+  background-image:/* webpackIgnore: true */ url('assets/instagram_iconIconsCom_668041.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatsapp_372291 {
+  position: absolute;
+  left: 266px;
+  top: 584px;
+  width: 32px;
+  height: 32px;
+  background-image:/* webpackIgnore: true */ url('assets/whatsapp_372291.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menuHamburguesa {
+  position: absolute;
+  left: 28px;
+  top: 109px;
+  width: 32px;
+  height: 32px;
+  background-image:/* webpackIgnore: true */ url('assets/menuHamburguesa.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left_return_arrow_icon_1933351 {
+  position: absolute;
+  left: 301px;
+  top: 109px;
+  width: 32px;
+  height: 32px;
+  background-image:/* webpackIgnore: true */ url('assets/left_return_arrow_icon_1933351.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lista {
+  position: absolute;
+  left: 85px;
+  top: 177px;
+  width: 213px;
+  height: 233px;
+  border-radius: 20px;
+  background-color: #bee9e8;
+}
+.line5 {
+  position: absolute;
+  left: 86px;
+  top: 339px;
+  width: 212px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 2.5px #000;
+}
+.line4 {
+  position: absolute;
+  left: 86px;
+  top: 251px;
+  width: 212px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 2.5px #000;
+}
+.producto1 {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 189px;
+  width: 177px;
+  height: 49px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.producto2 {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 106px;
+  top: 273px;
+  width: 176px;
+  height: 47px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.producto3 {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 110px;
+  top: 356px;
+  width: 164px;
+  height: 54px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rectangle2 {
+  position: absolute;
+  left: 90px;
+  top: 446px;
+  width: 211px;
+  height: 66px;
+  border-radius: 20px;
+  background-color: #96cfe5;
+}
+.total {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 120px;
+  top: 457px;
+  width: 154px;
+  height: 43px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
